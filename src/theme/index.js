@@ -1,7 +1,8 @@
 export const fonts = {
   roboto: 'Roboto',
   pt: "PT Sans",
-  cabin: 'Cabin'
+  cabin: 'Cabin',
+  main: 'Catamaran',
 }
 
 export const colors = {
