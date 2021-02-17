@@ -4,8 +4,8 @@ import { colors } from "theme";
 
 export const TopbarContainer = styled(Navbar)`
   width: 100%;
-  background: white;
-  box-shadow: 0px 3px 6px #00000029;
+  background: transparent;
+  /* box-shadow: 0px 3px 6px #00000029; */
   .navbar-brand {
     color: ${colors.blue};
   }
@@ -16,15 +16,15 @@ export const TopbarContainer = styled(Navbar)`
   .navbar-collapse {
     .navbar-nav {
       a {
-        color: ${colors.dark};
+        color: ${colors.blueDark};
         font-weight: 700;
         font-size: 16px;
         align-self: center;
         margin-left: 48px;
-        &.btn-profile {
-          background: ${colors.redLight};
+        &.btn-download {
+          background: ${colors.blueDark};
           border-radius: 48px;
-          padding: 8px 20px;
+          padding: 2px 16px;
           color: ${colors.white};
         }
       }

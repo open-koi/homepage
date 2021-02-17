@@ -1,26 +1,24 @@
+import { Logo } from "assets/images";
 import React from "react";
-import { Navbar, Nav } from "react-bootstrap";
+import { Navbar, Nav, Image } from "react-bootstrap";
+import { Link } from "react-router-dom";
 import { TopbarContainer } from "./style";
 
 function Topbar() {
   return (
-    <TopbarContainer collapseOnSelect expand="md" sticky="top">
+    <TopbarContainer collapseOnSelect expand="md" fixed="top">
       <Navbar.Brand target="_blank" href="https://beta.keytango.io/">
-        {/* <Image src={Logo} preview={false} /> */}
+        <Image src={Logo} />
       </Navbar.Brand>
       <Navbar.Toggle aria-controls="responsive-navbar-nav">
         <i className="fas fa-bars"></i>
       </Navbar.Toggle>
       <Navbar.Collapse id="responsive-navbar-nav">
         <Nav className="ml-auto">
-          {/* <Link to="/convert">Convert</Link> */}
-          {/* <Link to="#">Discover</Link> */}
-          {/* <Link to="#">Learn</Link> */}
-          {/* <Link to="#" className='btn-profile'>My Profile</Link> */}
+          <Link to="/convert">News</Link>
+          <Link to="#">Ecosystem</Link>
+          <Link to="#" className='btn-download'>Download</Link>
         </Nav>
-        {/* <Nav>
-          <Link href="#deets">More deets</Link>
-        </Nav> */}
       </Navbar.Collapse>
     </TopbarContainer>
   );

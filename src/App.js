@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Switch } from 'react-router-dom';
+import { BrowserRouter as Router, Redirect, Route, Switch } from 'react-router-dom';
 import { Scrollbars } from 'react-custom-scrollbars';
 import GlobalStyle from 'theme/globalStyle';
 import 'assets/css/fontawesome.min.css';
@@ -16,7 +16,8 @@ function App() {
         <GlobalStyle />
         <Router>
           <Switch>
-            <MyRoute exact path="/" component={Home} />
+            <Route exact path="/" render={() => <Redirect to="/home" />} />
+            <MyRoute exact path="/home" component={Home} />
           </Switch>
         </Router>
       </Scrollbars>

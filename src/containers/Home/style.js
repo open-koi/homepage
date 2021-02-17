@@ -8,11 +8,14 @@ export const HomeContainer = styled.div`
   background-color: ${colors.pink};
   display: flex;
   justify-content: center;
-  padding: 18px 0px 35px;
+  .home-section {
+    width: 100%;
+    &.home-header-section {
+      background-color: ${colors.blueLight};
+    }
+  }
   @media (max-width: ${mixins.md}px) {
-    padding: 24px 15px 56px;
   }
   @media (max-width: ${mixins.sm}px) {
-    padding: 24px 15px 56px;
   }
 `;
