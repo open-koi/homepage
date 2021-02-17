@@ -1,0 +1,65 @@
+[
+  {
+    "title": "Compound",
+    "slug": "compound",
+    "description": "Compound was one of the first cryptocurrencies to introduce interest-bearing tokens.",
+    "icon": "/img/compound.png",
+    "link": "https://compound.finance/"
+  },
+  {
+    "title": "AAVE",
+    "slug": "aave",
+    "description": "Aave is an open source and non-custodial liquidity protocol for earning interest on deposits and borrowing assets.",
+    "icon": "/img/aave.png",
+    "link": "https://aave.com/"
+  },
+  {
+    "title": "Bancor",
+    "slug": "bancor",
+    "description": "Bancor is a blockchain protocol that allows users to convert different virtual currency tokens directly and instantly.",
+    "icon": "/img/bancor.png",
+    "link": "https://app.bancor.network/"
+  },
+  {
+    "title": "Yearn",
+    "slug": "yearn",
+    "description": "Yearn Finance is a suite of products in Decentralized Finance (DeFi) that provides lending aggregation, yield generation, and insurance on the Ethereum blockchain.",
+    "icon": "/img/yearn.png",
+    "link": "https://yearn.finance/"
+  },
+  {
+    "title": "Curve",
+    "slug": "curve",
+    "description": "Curve Finance is a decentralized exchange (DEX) running on Ethereum. It's specifically designed for swapping between stablecoins.",
+    "icon": "/img/curve.png",
+    "link": "https://www.curve.fi/"
+  },
+  {
+    "title": "Sushiswap",
+    "slug": "sushiswap",
+    "description": "SushiSwap is a fork of the UniSwap automated market making system, and offers a completely decentralized, open, and transparent exchange.",
+    "icon": "/img/sushiswap.png",
+    "link": "https://sushiswap.com/"
+  },
+  {
+    "title": "Balancer",
+    "slug": "balancer",
+    "description": "Balancer is a software running on Ethereum that seeks to incentivize a distributed network of computers to operate an exchange where users can buy and sell any cryptocurrency.",
+    "icon": "/img/balancer.png",
+    "link": "https://balancer.exchange/"
+  },
+  {
+    "title": "Instadapp",
+    "slug": "instadapp",
+    "description": "InstaDApp is a DeFi application that provides a simple interface in order to interact with other DeFi protocols.",
+    "icon": "/img/instadapp.png",
+    "link": "https://instadapp.io/"
+  },
+  {
+    "title": "OneInch",
+    "slug": "oneinch",
+    "description": "1inch offers the best rates by discovering the most efficient swapping routes across all leading DEXes.",
+    "icon": "/logos/1inch.png",
+    "link": "https://1inch.exchange/"
+  }
+]
