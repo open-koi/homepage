@@ -27,8 +27,12 @@ const GlobalStyle = createGlobalStyle`
     font-size: 24px;
     font-family: ${fonts.main};
   }
-  p {
+  h6 {
     font-size: 18px;
+    font-family: ${fonts.main};
+  }
+  p {
+    font-size: 15px;
     font-family: ${fonts.main};
   }
   button, .button {
